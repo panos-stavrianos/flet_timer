@@ -12,7 +12,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: Print environment variable!
+      - name: Print environment variable
         run: |
           echo "PYPI_API_TOKEN:"
           echo "${{ secrets.PYPI_API_TOKEN }}"
