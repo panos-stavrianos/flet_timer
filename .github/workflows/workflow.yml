@@ -15,7 +15,7 @@ jobs:
       - name: Print environment variable
         run: |
           echo "PYPI_API_TOKEN:"
-          echo "${{ secrets.PYPI_API_TOKEN }}"
+          echo "!${{ secrets.PYPI_API_TOKEN }}!"
 
       - name: Set up Python
         uses: actions/setup-python@v2
