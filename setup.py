@@ -19,6 +19,6 @@ setup(
     name='flet_timer',
     packages=find_packages(include=['flet_timer', 'flet_timer.*']),
     url='https://github.com/panos-stavrianos/flet_timer',
-    version='0.0.1',
+    version='0.0.3',
     zip_safe=False,
 )
