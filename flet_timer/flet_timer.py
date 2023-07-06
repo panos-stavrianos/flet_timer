@@ -7,7 +7,6 @@ from interval_timer import IntervalTimer
 class Timer(ft.UserControl):
     def __init__(self, name, interval_s, callback, *args, **kwargs):
         super().__init__(*args, **kwargs)
-
         self.name = name
         self.interval_s = interval_s
         self.callback = callback
