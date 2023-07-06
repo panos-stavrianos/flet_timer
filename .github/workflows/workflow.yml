@@ -8,10 +8,14 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
+
+      - name: Print environment variable
+        run: |
+          echo "PYPI_API_TOKEN:"
+          echo "${{ secrets.PYPI_API_TOKEN }}"
 
       - name: Set up Python
         uses: actions/setup-python@v2
