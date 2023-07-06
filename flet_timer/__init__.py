@@ -2,5 +2,5 @@
 
 __author__ = """Panos Stavrianos"""
 __email__ = 'panos@orbitsystems.gr'
-__version__ = '0.0.8'
+__version__ = '0.0.9'
 
