@@ -16,6 +16,7 @@ setup(
     python_requires='>=3.6',
     description="A simple component to add a timer to your flet app",
     long_description=readme,
+    long_description_content_type='text/markdown',
     install_requires=requirements,
     license="MIT license",
     include_package_data=True,
