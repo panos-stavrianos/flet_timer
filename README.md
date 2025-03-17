@@ -74,8 +74,6 @@ a `refresh()` function that updates the `txt_time` value with the current time a
 instantiate a `Timer` with a 1-second interval and the `refresh()` function as the callback. The timer continuously
 calls the callback, updating the UI with the current time.
 
-Certainly! Here's the disclaimer in markdown format:
-
 ## Disclaimer
 
 Please note that this package is provided as-is and has not been extensively tested.
